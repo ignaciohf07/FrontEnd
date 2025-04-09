@@ -280,3 +280,44 @@ body {
   width: max-content;
   font-family: "Gotham Medium", sans-serif;
 }
+
+/* Experiencia */
+.lista-experiencia {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.lista-experiencia li {
+  border-radius: 10px 10px 0 0;
+}
+
+.lista-experiencia img {
+  border-radius: 10px 10px 0 0;
+}
+
+.lista-experiencia p {
+  display: flex;
+  justify-content: center;
+  font-family: "Gotham Light", sans-serif;
+  font-weight: bold;
+}
+
+.experiencia-texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gotham Black", sans-serif;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.experiencia-texto h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.experiencia-texto span {
+  color: #ffad12;
+}
