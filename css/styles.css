@@ -200,7 +200,7 @@ body {
 .columnas li {
   display: flex;
   align-items: center;
-  padding: 5px;
+  padding: 4px;
   width: 100%;
   min-height: 50px;
   border-bottom: 1px solid #999;
@@ -256,6 +256,23 @@ body {
 .letra-pequeña {
   font-size: 13px;
   text-align: center;
+}
+
+.precio-mes {
+  font-size: 14px;
+  text-align: center;
+  font-family: DM Sans, sans-serif;
+  line-height: 20px;
+  max-width: 160px;
+}
+
+.valor-promo {
+  width: 100%;
+  font-family: DM Sans, sans-serif;
+  font-size: 14px;
+  display: flex;
+  flex: auto;
+  align-items: center;
 }
 
 .meses {
@@ -615,4 +632,8 @@ body {
 }
 .margen {
   margin: 20px 0;
+}
+
+.footer-terminos-condiciones {
+  padding: 90px 0 !important;
 }
